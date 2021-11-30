@@ -1,0 +1,17 @@
+@charset "UTF-8";
+.ib {
+	display:inline-block;
+}
+.title, .tableItems, .editItems,.NotEditItems, .textbox{
+	display:inline-block;
+	padding-bottom:5px;
+	padding-right:1px;
+	padding-left:1px;
+	margin: 0px;
+	width:10em;
+	text-align:center;
+}
+
+.title {
+	font-weight:bold;
+}

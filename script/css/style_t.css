@@ -1,0 +1,94 @@
+@charset "UTF-8";
+
+main{
+	margin-top: 30px;
+}
+/* --------------------------------------login.php */
+.login_table{
+	width: 50%;
+	margin: 0 auto;
+}
+
+.login_table td,tr{
+	padding-bottom: 20px;
+}
+.login_table th{
+	width: 300px;
+	text-align: right;
+	vertical-align: top;
+}
+.login_table td{
+	width: 900px;
+}
+.login_table input{
+	width: 100%;
+	height: 30px;
+}
+
+/* .send input{
+	width: 20% !important;
+} */
+
+/* ------------------------------------------login_check.php */
+/* tableのためログインとクラスを同じにする */
+
+/* -----------------------------create_new_account.php */
+.login_table{
+	width: 50%;
+	margin:  auto;
+}
+
+.login_table td,.login_table tr{
+	padding-bottom: 20px;
+}
+.login_table th{
+	width: 300px;
+	text-align: right;
+	vertical-align: top;
+	padding-right: 30px;
+}
+.login_table td{
+	width: 900px;
+}
+.login_table input{
+	width: 100%;
+	height: 30px;
+}
+
+/* --------------------------check_new_account.php */
+
+/*---------------------------my favorite.php*/
+.product_table table{
+	width: 60%;
+	margin: 0 auto;
+}
+
+.product_table td,tr{
+	/*padding-bottom: 20px;*/
+	vertical-align: middle;
+}
+.product_table th{
+	width: 300px;
+	text-align: center;
+	/*vertical-align: top;*/
+	/*padding-right: 30px;*/
+}
+/*.product_table td{
+	width: 900px;
+}*/
+.product_table input{
+	margin: 5px;
+	width: 90%;
+	height: 30px;
+
+}
+/*---------------------------------favorite_main.php*/
+.favorite_table table{
+	width: 60%;
+	height: auto;
+	margin: 0 auto;
+}
+
+.favorite_table th{
+	border-bottom: 1px dotted black;
+}

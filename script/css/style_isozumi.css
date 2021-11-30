@@ -1,0 +1,413 @@
+@charset "UTF-8";
+
+/* @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP&display=swap'); */
+
+* {
+  box-sizing: border-box;
+}
+
+html * {
+  /*outline: 1px dotted red;*/
+  text-align: center;
+  font-family: "Georgia";
+}
+
+input {
+  text-align: left !important;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+a:hover {
+  color: #888C03;
+}
+/* 全てのタイトル表示 */
+h1 {
+  position: relative;
+  display: inline-block;
+  text-decoration: none;
+  padding-top: 40%;
+}
+h1::after {
+  position: absolute;
+  bottom: -4px;
+  left: 0;
+  content: "";
+  width: 100%;
+  height: 2px;
+  background: #333;
+  transform: scale(0, 1);
+  transform-origin: center top;
+  transition: transform 0.3s;
+}
+h1:hover::after {
+  transform: scale(1, 1);
+}
+
+/* 全てのボタン */
+/* https://webparts.cman.jp/button/submit/ */
+.button {
+  display: inline-block;
+  font-size: 10pt; /* 文字サイズ */
+  text-align: center !important; /* 文字位置   */
+  cursor: pointer; /* カーソル   */
+  padding: 3px 12px; /* 余白       */
+  /*background: #663300;*/ /* 背景色     */
+  background: #A66933; /* 背景色     */
+  color: #ffffff; /* 文字色     */
+  line-height: 1em; /* 1行の高さ  */
+  transition: 0.3s; /* なめらか変化 */
+  border: 2px solid #A66933; /* 枠の指定 */
+  margin: 5px;
+}
+.button:hover {
+  color: #A66933; /* 背景色     */
+  background: #ffffff; /* 文字色     */
+}
+/*header.php*/
+.cart {
+  height: 20px;
+}
+
+.header_image {
+  width: 100%;
+  height: 400px;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+}
+.nav_left {
+  margin: 0px 20px;
+}
+
+.nav_right {
+  display: flex;
+}
+
+.nav_right p,
+.nav_right form {
+  margin: auto 10px;
+}
+
+.menu_bar {
+  justify-content: space-around;
+  display: flex;
+}
+
+/*index.phpのファイル設定*/
+h1 {
+  padding-top: 40px;
+}
+
+/*index.phpのファイル　slider設定*/
+.sliders {
+  margin: 0 auto;
+  padding: 0;
+  width: 90%;
+  height: 100%;
+}
+.sliders img {
+  height: auto;
+  width: 100%;
+  /* border: solid 1px black; */
+  text-align: center;
+}
+.slick-prev:before,
+.slick-next:before {
+  color: black;
+}
+
+/* index.phpのファイル　menu_barの設定 */
+
+/*index.phpのファイル　genre_link*/
+.genre_link {
+  display: flex;
+  width: 80%;
+  margin: 0 auto;
+  justify-content: space-around;
+}
+
+.one_calum img {
+  width: 300px;
+  height: 300px;
+}
+
+/*news*/
+.news_table {
+  width: 60%;
+  margin: 0 auto;
+}
+.news_table th {
+  vertical-align: baseline;
+  padding-bottom: 10px;
+}
+
+.news_td {
+  border-bottom: 1px dotted black;
+}
+
+/*----------------------------------ranking*/
+.rank {
+  width: 100%;
+  flex-wrap: wrap;
+  /* display: inline-flex; */
+  margin: 0 auto;
+}
+.ranking {
+  display: inline-block;
+}
+.rank img {
+  width: 250px;
+  margin: 5px;
+}
+.rank p {
+  margin: 0;
+  padding: 0;
+}
+/*---------------------------------------------- sale　ranking_slide */
+.sale {
+  max-width: 90%;
+  margin: 0 auto;
+  padding: 0 25px;
+}
+.sale.w300 {
+  max-width: 300px;
+}
+.slick-slide {
+  margin: 0 5px;
+}
+.slick-slide img {
+  width: 100%;
+  height: auto;
+}
+.slick-prev,
+.slick-next {
+  z-index: 1;
+}
+.slick-prev:before,
+.slick-next:before {
+  color: #000;
+}
+.slick-slide {
+  transition: all ease-in-out 0.3s;
+  opacity: 0.2;
+}
+.slick-active {
+  opacity: 1;
+}
+.slick-current {
+  opacity: 1;
+}
+.thumb {
+  margin: 20px 0 0;
+}
+.thumb .slick-slide {
+  cursor: pointer;
+}
+.thumb .slick-slide:hover {
+  opacity: 0.7;
+}
+
+/*-------------------------------------------------------------footer.phpのファイル*/
+.sns {
+  height: 20px !important;
+  width: 20px !important;
+}
+footer {
+  width: 100%;
+  display: block;
+  border-top: 2px dotted black;
+  margin-top: 50px;
+}
+
+.footer_top {
+  display: flex;
+}
+.footer_left {
+  flex-basis: 50% !important;
+}
+.footer_left p {
+  text-align: left;
+  text-indent: 1em;
+}
+
+.footer_middle {
+  flex-basis: 45% !important;
+}
+.footer_middle p,
+h2 {
+  text-align: right;
+}
+
+.footer_right {
+  flex-basis: 5% !important;
+}
+.footer_right p {
+  text-align: left;
+  padding-left: 20px;
+  padding-top: 7px;
+}
+/* ------------------------------------------------------------------------about.phpのリンク- */
+
+.item1 {
+  display: flex;
+  width: 70%;
+  margin: 0 auto;
+}
+
+.item1 img {
+  width: 400px;
+  height: auto;
+  margin-right: 40px;
+}
+
+.item-text p {
+  text-align: left;
+  padding-left: 10px;
+}
+
+.about_table table {
+  margin: 20px auto;
+  width: 70%;
+}
+
+.about_table th,
+.about_table td {
+  border: 0.5px solid black;
+}
+
+.about_table th {
+  text-align: left;
+  text-indent: 1em;
+  vertical-align: top;
+  font-size: 1.25em;
+  font-weight: lighter;
+}
+.about_table td {
+  font-size: 1.25em;
+  text-align: left;
+  text-indent: 1em;
+}
+
+.about_map {
+  text-align: center;
+}
+
+.shop-photo1 {
+  float: left;
+  padding: 0 1em 1em 0;
+}
+
+.shop-photo2 {
+  float: right;
+  padding: 0 1em 1em 0;
+}
+
+/*-----------------------------------faq.phpのリンク*/
+.faq_qa {
+  width: 80%;
+  margin: 0 auto;
+}
+.faq_qa h3 {
+  margin: 0px;
+  /* text-indent: 1em; */
+  text-align: left;
+  border-bottom: 1px dotted black;
+}
+
+.faq_qa p {
+  margin: 0px;
+  /* text-indent: 2em; */
+  text-align: left;
+  margin-bottom: 20px;
+}
+
+/*--------------------------contact.phpのリンク*/
+.contact_contents {
+  /* text-align: center; */
+  width: 80%;
+  margin: 0 auto;
+}
+.contact_contents td,
+tr {
+  padding-bottom: 20px;
+}
+.contact_contents th {
+  width: 300px;
+  text-align: right;
+  vertical-align: top;
+}
+.contact_contents td {
+  width: 900px;
+}
+.contact_contents input,
+select {
+  width: 100%;
+  height: 30px;
+}
+
+.contact_contents textarea {
+  height: 300px;
+  width: 100%;
+}
+
+.send input {
+  width: 20% !important;
+  margin: 10px;
+}
+
+/*--------------------------check_contact.phpのリンク*/
+.check_contact div {
+  text-align: center;
+  margin: 0 auto;
+  width: 80%;
+}
+
+/* ------------------------------propuct_list.phpの設定 */
+
+.products {
+  flex-wrap: wrap;
+  display: inline-flex;
+  margin: 0 auto;
+}
+
+.product_list {
+  width: min-content;
+  margin: 30px auto;
+  padding: 0 20px;
+}
+
+.product_list img {
+  height: 300px;
+  width: auto;
+}
+
+/* -----------------------------------product_detail.php */
+
+.product_detail {
+  display: flex;
+  width: 50%;
+  margin: 30px auto;
+}
+
+.product_image img {
+  padding: 20px;
+  margin-right: 50px;
+  height: 500px;
+  width: auto;
+}
+
+.product_explanation p {
+  text-align: left;
+  /* text-indent: 1em; */
+}
+.product_explanation a {
+  text-align: center;
+  display: block;
+  margin: 40px 0px 20px 0px;
+}
