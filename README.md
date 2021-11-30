@@ -1,6 +1,6 @@
 # hinna
 
-![Image](readme_image/hinna1.PNG)
+![Image](readme_image/hinna1.png)
 
 # Description
 
@@ -18,11 +18,11 @@
 
 # Usage
 
-![Image](readme_image/hinna3.PNG)
-![Image](readme_image/hinna4.PNG)
-![Image](readme_image/hinna5.PNG)
-![Image](readme_image/hinna6.PNG)
-![Image](readme_image/hinna8.PNG)
+![Image](readme_image/hinna3.png)
+![Image](readme_image/hinna4.png)
+![Image](readme_image/hinna5.png)
+![Image](readme_image/hinna6.png)
+![Image](readme_image/hinna8.png)
 
 # Requirement
 
